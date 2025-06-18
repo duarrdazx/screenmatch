@@ -18,6 +18,10 @@ public class Titulo {
         return duracaoEmMinutos;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
     // Setters
     public void setNome(String nome) {
         this.nome = nome;
